@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hs-blog-common" />
+        <module name="hs-blog-sentinel" />
+        <module name="hs-blog-auth" />
+        <module name="hs-blog-gateway" />
+        <module name="hs-blog-xo" />
+        <module name="hs-blog-message" />
+        <module name="hs-blog-seata" />
+        <module name="hs-blog-article" />
+        <module name="hs-blog-user" />
+        <module name="hs-blog-media" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog-admin" target="1.8" />
+      <module name="hs-blog-api" target="8" />
+      <module name="hs-blog-nacos" target="8" />
+      <module name="hs-blog-sms" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-admin" options="-parameters" />
+      <module name="hs-blog-api" options="-parameters" />
+      <module name="hs-blog-article" options="-parameters" />
+      <module name="hs-blog-auth" options="-parameters" />
+      <module name="hs-blog-common" options="-parameters" />
+      <module name="hs-blog-gateway" options="-parameters" />
+      <module name="hs-blog-media" options="-parameters" />
+      <module name="hs-blog-message" options="-parameters" />
+      <module name="hs-blog-nacos" options="-parameters" />
+      <module name="hs-blog-seata" options="-parameters" />
+      <module name="hs-blog-sentinel" options="-parameters" />
+      <module name="hs-blog-sms" options="-parameters" />
+      <module name="hs-blog-user" options="-parameters" />
+      <module name="hs-blog-xo" options="-parameters" />
+    </option>
+  </component>
+</project>

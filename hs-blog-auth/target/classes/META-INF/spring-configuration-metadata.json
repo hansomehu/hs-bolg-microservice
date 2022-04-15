@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "name": "spring.auth-client",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.hs.blog.config.DataSourceConfig",
+      "sourceMethod": "secondDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
